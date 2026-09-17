@@ -13,3 +13,6 @@ To see more, an extended technical explanation can be found in the project’s R
 
 > [!NOTE]
 > Project Root: All source code and MLOps pipelines are located in the MLOps_sentiment_project/ directory to keep separate high-level documentation and code. To execute the project, treat MLOps_sentiment_project/ as root accordingly.
+> 
+> * **CI/CD Configuration:** If you are running GitHub Actions, remember to update your workflow files (e.g., `.github/workflows/CI_CD.yml`) by `adding defaults:      run: working-directory: ./MLOps_sentiment_project`.
+> * **Standalone Version:** Alternatively, you can check out the [standalone MLOps_sentiment_project version](https://github.com/alceblock/MLOps_sentiment_project) where this project runs directly from the root.
